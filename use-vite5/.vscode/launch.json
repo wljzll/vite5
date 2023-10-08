@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "vite5",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run",
+                "dev6"
+            ],
+            "program": "${workspaceFolder}/lesson2",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "type": "node-terminal",
+            "name": "运行脚本: dev5",
+            "request": "launch",
+            "command": "npm run dev5",
+            "cwd": "${workspaceFolder}/lesson2"
+        }
+    ]
+}

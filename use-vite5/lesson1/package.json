@@ -1,0 +1,17 @@
+{
+  "name": "use-vite5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "dev5": "vite5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^4.4.11",
+    "vue": "^3.3.4"
+  }
+}
